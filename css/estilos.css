@@ -1,12 +1,26 @@
 body{
     color: deeppink;
     text-align: center;
-    font-family:'Courier New', Courier, monospace ;
+    font-family:Arial, Helvetica, sans-serif ;
     font-size: 16px;
     margin: 0;
     padding: 0;
 }
 
+#cabecera{
+    background: #33A;
+    box-shadow: 0PX 2PX 20PX 0PX rgba(0, 0,0, 0.5);
+    color: white;
+    font-weight: bold;
+    margin: 0;
+    padding: 0.5em;
+}
+
+#cabecera #tagline{
+    padding: 0 0 0 1em;
+    font-weight: normal;
+    font-size: 0.8em;
+}
 #container{
     
     width: 70%;
